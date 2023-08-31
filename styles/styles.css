@@ -1,0 +1,85 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  box-sizing: border;
+  /*border: solid black 2px;*/
+}
+body {
+  background: rgb(220, 220, 220);
+}
+header {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(237, 237, 237);
+  width: 100%;
+  justify-content: space-between;
+  padding: 15px;
+  z-index: 900;
+}
+
+#login {
+  border-radius: 20px;
+  background-color: rgb(240, 164, 88);
+  padding-left: 0%;
+  margin-left: 20px;
+  width: 120px;
+  color: white;
+  padding-top: 0%;
+}
+header img {
+  width: 70px;
+  height: 50px;
+  padding: 3px;
+}
+
+button {
+  background: none;
+  border: none;
+  font-size: 30px;
+  color: rgb(91, 91, 91);
+  font-weight: bold;
+  padding-left: 40px;
+  padding-top: 10px;
+  cursor: pointer;
+  
+}
+
+button:hover {
+  color: rgb(65, 65, 65);
+}
+
+
+
+h1 {
+  color: rgb(51, 51, 51);
+}
+.bottonclass {
+  justify-content: space-around;
+  padding-right: 50px;
+  padding-top: 10px;
+  height: 200px;
+}
+
+h1 {
+  padding-top: 5px;
+  margin-left: 10px;
+}
+.logo {
+  display: flex;
+}
+
+.selection-img {
+  height: 500px;
+  margin-top: 150px;
+}
+
+@media screen and (max-width: 635px) {
+  .logo {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto auto;
+  }
+}

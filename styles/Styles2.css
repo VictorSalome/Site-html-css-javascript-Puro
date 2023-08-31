@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruwudu:wght@400;600&family=Vina+Sans&display=swap');
+
+* { margin:0px;
+    padding:0px;
+    box-sizing:border-box
+
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+  height: 100dvh;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  overflow:hidden
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+img.slideshow-container{
+margin-top:80px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+h2{
+  color:white;
+  text-shadow: 13px 3px 15px rgba(0, 0, 0, 0.7);
+  z-index:-1;
+  position:relative;
+  text-align: center;
+  font-size: 140px;
+  font-family: 'Ruwudu', serif;
+  margin-top: 350px;
+}
+
+
+
+@media screen and (max-width: 1235px){
+  img.slideshow-container{
+    margin-top:180px;
+    }
+
+  h2{
+    margin-top: 120px;
+    font-size: 80px;
+  }
+}
+@media screen and (max-width: 635px){
+  img.slideshow-container{
+    margin-top:180px;
+    }
+
+  h2{
+    margin-top: 120px;
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 435px){
+  .slideshow-container{
+    margin-top:80px;
+    }
+  }
